@@ -1,0 +1,16 @@
+{
+  "name": "journal-accreditation-evaluator",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portable Indonesian journal self-evaluation, based on the supplied Borang workbook",
+  "engines": { "node": ">=24.0.0" },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "create-user": "node --env-file-if-exists=.env scripts/create-user.mjs",
+    "backup": "node --env-file-if-exists=.env scripts/backup.mjs",
+    "build:css": "tailwindcss -i ./src/styles.css -o ./public/styles.css --minify",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "devDependencies": { "@tailwindcss/cli": "4.2.1", "tailwindcss": "4.2.1" }
+}

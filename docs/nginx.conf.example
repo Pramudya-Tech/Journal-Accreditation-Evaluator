@@ -1,0 +1,20 @@
+# Example for an existing HTTPS reverse proxy. Replace domain and certificate paths.
+# Node listens on 127.0.0.1:3000; do not expose SQLite or the project directory.
+server {
+    listen 80;
+    server_name journal-evaluator.example.org;
+    return 301 https://$host$request_uri;
+}
+server {
+    listen 443 ssl;
+    server_name journal-evaluator.example.org;
+    ssl_certificate /etc/letsencrypt/live/journal-evaluator.example.org/fullchain.pem;
+    ssl_certificate_key /etc/letsencrypt/live/journal-evaluator.example.org/privkey.pem;
+    client_max_body_size 512k;
+    location / {
+        proxy_pass http://127.0.0.1:3000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_read_timeout 75s;
+    }
+}

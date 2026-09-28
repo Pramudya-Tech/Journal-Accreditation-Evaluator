@@ -1,0 +1,964 @@
+{
+  "version": "borang-upload-2026-09-28",
+  "sourceFilename": "Borang Akreditasi Jurnal Ilmiah (1).xlsx",
+  "sourceSha256": "7fdea863d91e292749be6e427cb124a0c755aa135a4e90ec0edfbc07fd82948c",
+  "sheet": "Borang",
+  "maximum": 100.0,
+  "rankFormulaCell": "D159",
+  "rankBands": [
+    {
+      "min": 90,
+      "label": "SINTA 1"
+    },
+    {
+      "min": 80,
+      "label": "SINTA 2"
+    },
+    {
+      "min": 70,
+      "label": "SINTA 3"
+    },
+    {
+      "min": 60,
+      "label": "SINTA 4"
+    },
+    {
+      "min": null,
+      "label": "Tidak Terakreditasi (model borang)"
+    }
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "title": "Konsistensi Identitas Jurnal Ilmiah",
+      "sourceRow": 4,
+      "criteria": [
+        {
+          "id": "1",
+          "letter": "",
+          "title": "Konsistensi Identitas Jurnal Ilmiah",
+          "sourceRow": 4,
+          "options": [
+            {
+              "score": 2.0,
+              "label": "Unik dan/atau spesifik sehingga mencerminkan super spesialisasi atau spesialisasi disiplin ilmu tertentu dan konsisten identitas jurnal di laman jurnal, di metadata artikel, dan di judul sirahan galley PDF (Skor 2.0)",
+              "sourceCell": "C5"
+            },
+            {
+              "score": 1.0,
+              "label": "Kurang unik dan/atau kurang spesifik dan berkaitan dengan bidang ilmu yang meluas dan kurang konsisten identitas jurnal di laman jurnal, di metadata artikel, dan di judul sirahan galley PDF (Skor 1.0)",
+              "sourceCell": "C6"
+            },
+            {
+              "score": 0.0,
+              "label": "Tidak unik, serupa dengan jurnal lainnya, dan/atau mengandung nama lembaga/institusi lokal dan/atau tidak sesuai dengan yang terdaftar di ISSN (Skor 0)",
+              "sourceCell": "C7"
+            }
+          ],
+          "max": 2.0
+        }
+      ],
+      "max": 2.0
+    },
+    {
+      "id": 2,
+      "title": "Tata Kelola dan Keberagaman Jurnal Ilmiah",
+      "sourceRow": 8,
+      "criteria": [
+        {
+          "id": "2a",
+          "letter": "a",
+          "title": "Komposisi, Rekam Jejak Publikasi, dan Keberagaman Asal Mitra Bestari/Peer-Reviewer",
+          "sourceRow": 9,
+          "options": [
+            {
+              "score": 6.0,
+              "label": "Melibatkan secara aktif Mitra Bestari/Peer-Reviewer yang mempunyai rekam jejak publikasi internasional 3 tahun terakhir dan berasal dari 5 negara atau lebih dan jumlah penelaah pada setiap naskah minimal 3 orang dan disertai bukti telaah (Skor 6.0)",
+              "sourceCell": "C10"
+            },
+            {
+              "score": 4.0,
+              "label": "Melibatkan secara aktif Mitra Bestari/Peer-Reviewer yang mempunyai rekam jejak publikasi internasional 3 tahun terakhir dan berasal dari minimal 6 institusi dari 3 negara atau 8 institusi, dan jumlah penelaah pada setiap naskah minimal 2 orang dan disertai bukti telaah (Skor 4.0)",
+              "sourceCell": "C11"
+            },
+            {
+              "score": 2.0,
+              "label": "Melibatkan secara aktif Mitra Bestari/Peer-Reviewer yang mempunyai rekam jejak publikasi minimal nasional 3 tahun terakhir dan berasal minimal 6 institusi dan jumlah penelaah pada setiap naskah minimal 2 orang dan disertai bukti telaah (Skor 2.0)",
+              "sourceCell": "C12"
+            },
+            {
+              "score": 1.0,
+              "label": "Melibatkan secara aktif Mitra Bestari/Peer-Reviewer yang mempunyai rekam jejak publikasi minimal nasional 3 tahun terakhir dan berasal dari minimal 4 institusi dan jumlah penelaah pada setiap naskah minimal 2 orang dan disertai bukti telaah (Skor 1.0)",
+              "sourceCell": "C13"
+            },
+            {
+              "score": 0.0,
+              "label": "Tidak melibatkan Mitra Bestari/Peer-Reviewer secara aktif dalam proses penelaahan naskah, dan/atau tidak dapat menunjukkan bukti telaah substantif atas artikel yang diterbitkan (Skor 0.0)",
+              "sourceCell": "C14"
+            }
+          ],
+          "max": 6.0
+        },
+        {
+          "id": "2b",
+          "letter": "b",
+          "title": "Mutu Penyuntingan Substansi oleh Mitra Bestari/Peer-Reviewer",
+          "sourceRow": 15,
+          "options": [
+            {
+              "score": 4.0,
+              "label": "Mutu penyuntingan artikel baik sekali. Mitra Bestari secara ketat menilai manuskrip, memberikan catatan dan saran perbaikan secara substantif dan signifikan, sehingga mutu isi artikel jurnal terjaga (3 tahun terakhir) (Skor 4.0)",
+              "sourceCell": "C16"
+            },
+            {
+              "score": 2.0,
+              "label": "Mutu penyuntingan artikel kurang baik. Mitra Bestari kurang memberikan catatan saran perbaikan secara substantif dan tidak signifikan (3 tahun terakhir) (Skor 2.0)",
+              "sourceCell": "C17"
+            },
+            {
+              "score": 0.0,
+              "label": "Mutu penyuntingan artikel tidak baik. Mitra Bestari hanya memberikan catatan terkait tata bahasa dan tata letak (layout) (3 tahun terakhir) (Skor 0.0)",
+              "sourceCell": "C18"
+            }
+          ],
+          "max": 4.0
+        },
+        {
+          "id": "2c",
+          "letter": "c",
+          "title": "Pelibatan, Komposisi, Rekam Jejak Publikasi, dan Keberagaman Asal Tim Penyunting/Tim Editor/Editorial Board",
+          "sourceRow": 19,
+          "options": [
+            {
+              "score": 5.0,
+              "label": "Melibatkan secara aktif Tim Penyunting/Tim Editor/Editorial Board dan mempunyai rekam jejak publikasi internasional 3 tahun terakhir dan berasal dari 5 atau lebih negara dan disertai bukti aktivitasnya (Skor 5.0)",
+              "sourceCell": "C20"
+            },
+            {
+              "score": 3.0,
+              "label": "Melibatkan secara aktif Tim Penyunting/Tim Editor/Editorial Board dan mempunyai rekam jejak publikasi internasional 3 tahun terakhir dan berasal dari minimal 2 negara atau 6 institusi dan disertai bukti aktivitasnya (Skor 3.0)",
+              "sourceCell": "C21"
+            },
+            {
+              "score": 2.0,
+              "label": "Melibatkan secara aktif Tim Penyunting/Tim Editor/Editorial Board dan mempunyai rekam jejak publikasi nasional 3 tahun terakhir dan berasal dari minimal 4 institusi dan disertai bukti aktivitasnya (Skor 2.0)",
+              "sourceCell": "C22"
+            },
+            {
+              "score": 1.0,
+              "label": "Melibatkan secara aktif Tim Penyunting/Tim Editor/Editorial Board dan mempunyai rekam jejak publikasi nasional 3 tahun terakhir dan berasal dari 2 institusi dan disertai bukti aktivitasnya (Skor 1.0)",
+              "sourceCell": "C23"
+            }
+          ],
+          "max": 5.0
+        },
+        {
+          "id": "2d",
+          "letter": "d",
+          "title": "Keberagaman Asal Penulis",
+          "sourceRow": 24,
+          "options": [
+            {
+              "score": 6.0,
+              "label": "Keberagaman asal penulis dari 5 negara atau lebih (per nomor terbitan dalam 3 tahun terakhir) (Skor 6.0)",
+              "sourceCell": "C25"
+            },
+            {
+              "score": 4.0,
+              "label": "Keberagaman asal penulis minimal dari 2 negara atau 8 institusi (per nomor terbitan dalam 3 tahun terakhir) (Skor 4.0)",
+              "sourceCell": "C26"
+            },
+            {
+              "score": 2.0,
+              "label": "Keberagaman asal penulis minimal dari 4 institusi (per nomor terbitan dalam 3 tahun terakhir) (Skor 2.0)",
+              "sourceCell": "C27"
+            },
+            {
+              "score": 1.0,
+              "label": "Keberagaman asal penulis minimal dari 2 institusi (per nomor terbitan dalam 3 tahun terakhir) (Skor 1.0)",
+              "sourceCell": "C28"
+            },
+            {
+              "score": 0.0,
+              "label": "Keberagaman asal penulis hanya dari 1 institusi (per nomor terbitan dalam 3 tahun terakhir) (Skor 0.0)",
+              "sourceCell": "C29"
+            }
+          ],
+          "max": 6.0
+        },
+        {
+          "id": "2e",
+          "letter": "e",
+          "title": "Pengelolaan Artikel Jurnal Ilmiah",
+          "sourceRow": 30,
+          "options": [
+            {
+              "score": 1.0,
+              "label": "Menggunakan pengelolaan penyuntingan artikel secara sistem manajemen jurnal daring (Skor 1.0)",
+              "sourceCell": "C31"
+            },
+            {
+              "score": 0.5,
+              "label": "Menggunakan pengelolaan penyuntingan artikel secara kombinasi antara sistem manajemen jurnal daring dan surat elektronik (Skor 0.5)",
+              "sourceCell": "C32"
+            },
+            {
+              "score": 0.0,
+              "label": "Menggunakan pengelolaan penyuntingan artikel melalui surat elektronik saja (Skor 0.0)",
+              "sourceCell": "C33"
+            }
+          ],
+          "max": 1.0
+        }
+      ],
+      "max": 22.0
+    },
+    {
+      "id": 3,
+      "title": "Kelengkapan Laman Jurnal Ilmiah",
+      "sourceRow": 34,
+      "criteria": [
+        {
+          "id": "3a",
+          "letter": "a",
+          "title": "Kejelasan Kebijakan Proses Penelaahan",
+          "sourceRow": 35,
+          "options": [
+            {
+              "score": 2.0,
+              "label": "Kebijakan proses penelaahan sudah menjelaskan secara jelas semua proses peer-review naskah (Skor 2.0)",
+              "sourceCell": "C36"
+            },
+            {
+              "score": 1.0,
+              "label": "Kebijakan proses penelaahan sudah menjelaskan secara jelas sebagian proses peer-review naskah (Skor 1.0)",
+              "sourceCell": "C37"
+            },
+            {
+              "score": 0.0,
+              "label": "Kebijakan proses penelaahan tidak tersedia atau tersedia tetapi tidak menjelaskan prinsip dasar proses peer-review naskah (Skor 0.0)",
+              "sourceCell": "C38"
+            }
+          ],
+          "max": 2.0
+        },
+        {
+          "id": "3b",
+          "letter": "b",
+          "title": "Kejelasan Petunjuk Penulisan bagi Penulis",
+          "sourceRow": 39,
+          "options": [
+            {
+              "score": 1.0,
+              "label": "Petunjuk penulisan terinci, lengkap, dan jelas secara substantif, sistematis, di laman jurnal maupun di dalam template artikel dan tersedia contoh templat format artikel (Skor 1.0)",
+              "sourceCell": "C40"
+            },
+            {
+              "score": 0.5,
+              "label": "Petunjuk penulisan terinci, lengkap, dan jelas secara substantif, sistematis, di laman jurnal, namun tidak tersedia contoh templat format artikel (Skor 0.5)",
+              "sourceCell": "C41"
+            },
+            {
+              "score": 0.0,
+              "label": "Petunjuk penulisan kurang lengkap dan/atau kurang jelas di versi laman jurnal maupun di templat artikel atau ada templat tetapi tidak ada petunjuk penulisan (Skor 0.0)",
+              "sourceCell": "C42"
+            }
+          ],
+          "max": 1.0
+        },
+        {
+          "id": "3c",
+          "letter": "c",
+          "title": "Kejelasan Penggunaan Kecerdasan Artifisial",
+          "sourceRow": 43,
+          "options": [
+            {
+              "score": 1.0,
+              "label": "Memiliki kebijakan penggunaan AI yang mengatur kewajiban pengungkapan oleh Penulis, batasan penggunaan oleh Tim Editor, dan larangan penggunaan AI oleh Mitra Bestari dalam proses penelaahan naskah (Skor 1.0)",
+              "sourceCell": "C44"
+            },
+            {
+              "score": 0.5,
+              "label": "Kebijakan tersedia, tetapi belum lengkap karena hanya mengatur sebagian ketentuan penggunaan AI (Skor 0.5)",
+              "sourceCell": "C45"
+            },
+            {
+              "score": 0.0,
+              "label": "Kebijakan tidak tersedia pada laman jurnal, atau hanya berupa pernyataan umum yang tidak memberikan ketentuan penggunaan AI secara jelas (Skor 0.0)",
+              "sourceCell": "C46"
+            }
+          ],
+          "max": 1.0
+        },
+        {
+          "id": "3d",
+          "letter": "d",
+          "title": "Kelengkapan Laman Jurnal Ilmiah",
+          "sourceRow": 47,
+          "options": [
+            {
+              "score": 3.0,
+              "label": "Unsur-unsur kelengkapan laman jurnal ilmiah sepenuhnya sesuai (100%) dengan COPE Principles of Transparency and Best Practice in Scholarly Publishing (Skor 3.0)",
+              "sourceCell": "C48"
+            },
+            {
+              "score": 2.0,
+              "label": "Unsur-unsur kelengkapan laman jurnal ilmiah sebagian besar sesuai (lebih dari atau sama dengan 75% dan kurang dari 100%) dengan COPE Principles of Transparency and Best Practice in Scholarly Publishing (Skor 2.0)",
+              "sourceCell": "C49"
+            },
+            {
+              "score": 1.0,
+              "label": "Unsur-unsur kelengkapan laman jurnal ilmiah sebagian sesuai (lebih dari atau sama dengan 50% dan kurang dari 75%) dengan COPE Principles of Transparency and Best Practice in Scholarly Publishing (Skor 1.0)",
+              "sourceCell": "C50"
+            },
+            {
+              "score": 0.0,
+              "label": "Unsur-unsur kelengkapan laman jurnal ilmiah kurang sesuai (kurang dari 50%) dengan COPE Principles of Transparency and Best Practice in Scholarly Publishing (Skor 0.0)",
+              "sourceCell": "C51"
+            }
+          ],
+          "max": 3.0
+        }
+      ],
+      "max": 7.0
+    },
+    {
+      "id": 4,
+      "title": "Keberkalaan Penerbitan Jurnal Ilmiah",
+      "sourceRow": 52,
+      "criteria": [
+        {
+          "id": "4a",
+          "letter": "a",
+          "title": "Jadwal Penerbitan",
+          "sourceRow": 53,
+          "options": [
+            {
+              "score": 2.0,
+              "label": "Terbitan yang menerapkan sistem penerbitan pra-publikasi seperti artikel inpress dan/atau issue in progress (Skor 2.0)",
+              "sourceCell": "C54"
+            },
+            {
+              "score": 1.5,
+              "label": "Lebih dari 75% terbitan sesuai dengan periode yang ditentukan (3 tahun terakhir) (Skor 1.5)",
+              "sourceCell": "C55"
+            },
+            {
+              "score": 1.0,
+              "label": "Lebih dari 25% sampai dengan 75% terbitan sesuai dengan periode yang ditentukan (3 tahun terakhir) (Skor 1.0)",
+              "sourceCell": "C56"
+            },
+            {
+              "score": 0.5,
+              "label": "Kurang dari atau sama dengan 25% terbitan sesuai dengan periode yang ditentukan (3 tahun terakhir) (Skor 0.5)",
+              "sourceCell": "C57"
+            },
+            {
+              "score": 0.0,
+              "label": "Menganut konsep penerbitan abstract only dan/atau penyisipan artikel pada terbitan back issue (Skor 0.0)",
+              "sourceCell": "C58"
+            }
+          ],
+          "max": 2.0
+        },
+        {
+          "id": "4b",
+          "letter": "b",
+          "title": "Sistem Penomoran Volume, Nomor Terbitan, dan Nomor Halaman / Identitas Artikel",
+          "sourceRow": 59,
+          "options": [
+            {
+              "score": 1.0,
+              "label": "Penomoran volume, terbitan dan halaman artikel bersistem baik dan konsisten (3 tahun terakhir) (Skor 1.0)",
+              "sourceCell": "C60"
+            },
+            {
+              "score": 0.5,
+              "label": "Penomoran volume, terbitan, dan halaman artikel bersistem cukup baik dan/atau cukup konsisten (3 tahun terakhir) (Skor 0.5)",
+              "sourceCell": "C61"
+            },
+            {
+              "score": 0.0,
+              "label": "Penomoran volume, terbitan, dan halaman artikel bersistem kurang baik dan/atau kurang konsisten (3 tahun terakhir) (Skor 0.0)",
+              "sourceCell": "C62"
+            }
+          ],
+          "max": 1.0
+        }
+      ],
+      "max": 3.0
+    },
+    {
+      "id": 5,
+      "title": "Penyebarluasan Jurnal Ilmiah",
+      "sourceRow": 63,
+      "criteria": [
+        {
+          "id": "5a",
+          "letter": "a",
+          "title": "Dampak Ilmiah (Jumlah Sitasi)",
+          "sourceRow": 64,
+          "options": [
+            {
+              "score": 6.0,
+              "label": "Jumlah sitasi (3 tahun terakhir) adalah lebih dari 25 sitasi terdeteksi berdasarkan basis data pengindeks bereputasi internasional dan/atau lebih dari 75 sitasi terdeteksi berdasarkan basis data DOI (Skor 6.0)",
+              "sourceCell": "C65"
+            },
+            {
+              "score": 4.0,
+              "label": "Jumlah sitasi (3 tahun terakhir) adalah 20-25 sitasi terdeteksi berdasarkan basis data pengindeks bereputasi internasional dan/atau 31-75 sitasi terdeteksi berdasarkan basis data DOI (Skor 4.0)",
+              "sourceCell": "C66"
+            },
+            {
+              "score": 3.0,
+              "label": "Jumlah sitasi (3 tahun terakhir) adalah 10-19 sitasi terdeteksi berdasarkan basis data pengindeks bereputasi internasional dan/atau 11-30 sitasi terdeteksi berdasarkan basis data DOI (Skor 3.0)",
+              "sourceCell": "C67"
+            },
+            {
+              "score": 2.0,
+              "label": "Jumlah sitasi (3 tahun terakhir) adalah 5-9 sitasi terdeteksi berdasarkan basis data pengindeks bereputasi internasional dan/atau 5-10 sitasi terdeteksi berdasarkan basis data DOI (Skor 2.0)",
+              "sourceCell": "C68"
+            },
+            {
+              "score": 1.0,
+              "label": "Jumlah sitasi (3 tahun terakhir) adalah kurang dari 5 sitasi terdeteksi berdasarkan basis data pengindeks bereputasi internasional dan/atau kurang dari 5 sitasi terdeteksi berdasarkan basis data DOI (Skor 1.0)",
+              "sourceCell": "C69"
+            },
+            {
+              "score": 0.0,
+              "label": "Jumlah sitasi dalam 3 (tiga) tahun terakhir tidak dapat diverifikasi secara memadai (Skor 0.0)",
+              "sourceCell": "C70"
+            }
+          ],
+          "max": 6.0
+        },
+        {
+          "id": "5b",
+          "letter": "b",
+          "title": "Visibilitas Jurnal Ilmiah",
+          "sourceRow": 71,
+          "options": [
+            {
+              "score": 6.0,
+              "label": "Tercantum dan metadata terindeks di lembaga pengindeks bereputasi internasional (Skor 6.0)",
+              "sourceCell": "C72"
+            },
+            {
+              "score": 4.0,
+              "label": "Tercantum tetapi metadata belum terindeks di lembaga pengindeks bereputasi internasional (Skor 4.0)",
+              "sourceCell": "C73"
+            },
+            {
+              "score": 3.0,
+              "label": "Tercantum dan metadata terindeks di lembaga pengindeks internasional/nasional bersistem seleksi (Skor 3.0)",
+              "sourceCell": "C74"
+            },
+            {
+              "score": 2.0,
+              "label": "Tercantum tetapi metadata belum terindeks di lembaga pengindeks internasional/nasional bersistem seleksi (Skor 2.0)",
+              "sourceCell": "C75"
+            },
+            {
+              "score": 1.0,
+              "label": "Tercantum dan metadata terindeks di lembaga pengindeks internasional/nasional tidak bersistem seleksi (Skor 1.0)",
+              "sourceCell": "C76"
+            }
+          ],
+          "max": 6.0
+        }
+      ],
+      "max": 12.0
+    },
+    {
+      "id": 6,
+      "title": "Mutu Artikel (Substansi)",
+      "sourceRow": 77,
+      "criteria": [
+        {
+          "id": "6a",
+          "letter": "a",
+          "title": "Judul Artikel",
+          "sourceRow": 78,
+          "options": [
+            {
+              "score": 2.0,
+              "label": "Lugas dan memuat informasi temuan penting (Skor 2.0)",
+              "sourceCell": "C79"
+            },
+            {
+              "score": 1.0,
+              "label": "Lugas tetapi kurang memuat informasi temuan penting (Skor 1.0)",
+              "sourceCell": "C80"
+            },
+            {
+              "score": 0.0,
+              "label": "Tidak lugas dan tidak memuat informasi temuan penting (Skor 0.0)",
+              "sourceCell": "C81"
+            }
+          ],
+          "max": 2.0
+        },
+        {
+          "id": "6b",
+          "letter": "b",
+          "title": "Abstrak",
+          "sourceRow": 82,
+          "options": [
+            {
+              "score": 3.0,
+              "label": "Abstrak yang jelas dan ringkas dalam Bahasa Inggris, atau Bahasa Inggris dan Bahasa Indonesia (Skor 3.0)",
+              "sourceCell": "C83"
+            },
+            {
+              "score": 2.0,
+              "label": "Abstrak kurang jelas dan kurang ringkas dalam Bahasa Inggris, atau Bahasa Inggris dan Bahasa Indonesia (Skor 2.0)",
+              "sourceCell": "C84"
+            },
+            {
+              "score": 0.0,
+              "label": "Abstrak tidak jelas (Skor 0.0)",
+              "sourceCell": "C85"
+            }
+          ],
+          "max": 3.0
+        },
+        {
+          "id": "6c",
+          "letter": "c",
+          "title": "Kata Kunci",
+          "sourceRow": 86,
+          "options": [
+            {
+              "score": 1.0,
+              "label": "Memuat kata kunci yang mencerminkan konsep penting isi artikel dan memudahkan pencarian oleh mesin pencari (Skor 1.0)",
+              "sourceCell": "C87"
+            },
+            {
+              "score": 0.5,
+              "label": "Memuat kata kunci tetapi kurang mencerminkan konsep penting isi artikel (Skor 0.5)",
+              "sourceCell": "C88"
+            },
+            {
+              "score": 0.0,
+              "label": "Tidak memuat kata kunci (Skor 0.0)",
+              "sourceCell": "C89"
+            }
+          ],
+          "max": 1.0
+        },
+        {
+          "id": "6d",
+          "letter": "d",
+          "title": "Kepioniran Ilmiah/ Orisinalitas /  Kontribusi Kebaruan / Analisis Kesenjangan",
+          "sourceRow": 90,
+          "options": [
+            {
+              "score": 7.0,
+              "label": "Memuat artikel yang berisi karya orisinal dan memberikan kontribusi kebaruan ilmiah sangat tinggi (lengkap memuat state of the art overview riset sebelumnya, justifikasi kontribusi kebaruan / analisis kesenjangan, dan tujuan riset) (Skor 7.0)",
+              "sourceCell": "C91"
+            },
+            {
+              "score": 5.0,
+              "label": "Memuat artikel yang berisi karya orisinal dan memberikan kontribusi kebaruan ilmiah tinggi (jika terdapat paling tidak dua hal di antara state of the art overview riset sebelumnya, justifikasi kontribusi kebaruan  / analisis kesenjangan, dan/atau tujuan riset) (Skor 5.0)",
+              "sourceCell": "C92"
+            },
+            {
+              "score": 3.0,
+              "label": "Memuat artikel yang berisi karya orisinal dan memberikan kontribusi kebaruan ilmiah cukup (jika terdapat salah satu hal di antara state of the art overview riset sebelumnya, justifikasi kontribusi kebaruan  / analisis kesenjangan, dan/atau tujuan riset) (Skor 3.0)",
+              "sourceCell": "C93"
+            },
+            {
+              "score": 1.0,
+              "label": "Memuat artikel yang berisi karya kurang orisinal dan kurang memberikan kontribusi kebaruan ilmiah atau tidak ada informasi analisis kesenjangan (Skor 1.0)",
+              "sourceCell": "C94"
+            }
+          ],
+          "max": 7.0
+        },
+        {
+          "id": "6e",
+          "letter": "e",
+          "title": "Analisis dan Sintesis",
+          "sourceRow": 95,
+          "options": [
+            {
+              "score": 8.0,
+              "label": "Sangat baik dan sangat mendalam; mencakup aspek metode penelitian, deskripsi temuan penting, kedalaman interpretasi pembahasan, dan pembandingan hasil temuan dengan periset lainnya – disesuaikan dengan kekhasan bidang keilmuan (Skor 8.0)",
+              "sourceCell": "C96"
+            },
+            {
+              "score": 6.0,
+              "label": "Baik dan mendalam; satu dari empat aspek berikut tidak ditemukan: metode penelitian, deskripsi temuan penting, kedalaman interpretasi pembahasan, dan/atau pembandingan hasil temuan dengan periset lainnya – disesuaikan dengan kekhasan bidang keilmuan (Skor 6.0)",
+              "sourceCell": "C97"
+            },
+            {
+              "score": 4.0,
+              "label": "Kurang baik dan kurang mendalam; dua dari empat aspek berikut tidak ditemukan: metode penelitian, deskripsi temuan penting, kedalaman interpretasi pembahasan, dan/atau pembandingan hasil temuan dengan periset lainnya – disesuaikan dengan kekhasan bidang keilmuan (Skor 4.0)",
+              "sourceCell": "C98"
+            },
+            {
+              "score": 1.0,
+              "label": "Tidak baik dan tidak mendalam; tiga dari empat aspek berikut tidak ditemukan: metode penelitian, deskripsi temuan penting, kedalaman interpretasi pembahasan, dan/atau pembandingan hasil temuan dengan periset lainnya – disesuaikan dengan kekhasan bidang keilmuan (Skor 1.0)",
+              "sourceCell": "C99"
+            }
+          ],
+          "max": 8.0
+        },
+        {
+          "id": "6f",
+          "letter": "f",
+          "title": "Penyimpulan",
+          "sourceRow": 100,
+          "options": [
+            {
+              "score": 5.0,
+              "label": "Sangat baik dan menjawab tujuan dan/atau memuat implikasi hasil riset (Skor 5.0)",
+              "sourceCell": "C101"
+            },
+            {
+              "score": 3.0,
+              "label": "Cukup baik dan cukup menjawab tujuan dan/atau memuat implikasi hasil riset (Skor 3.0)",
+              "sourceCell": "C102"
+            },
+            {
+              "score": 1.0,
+              "label": "Kurang baik dan kurang menjawab tujuan riset (Skor 1.0)",
+              "sourceCell": "C103"
+            }
+          ],
+          "max": 5.0
+        },
+        {
+          "id": "6g",
+          "letter": "g",
+          "title": "Nisbah Sumber Acuan Primer berbanding Sumber lainnya",
+          "sourceRow": 104,
+          "options": [
+            {
+              "score": 3.0,
+              "label": "Lebih dari 80 % dari jumlah daftar rujukan dan jumlah rujukan minimal 15 (Skor 3.0)",
+              "sourceCell": "C105"
+            },
+            {
+              "score": 2.0,
+              "label": "40-80 % dari jumlah daftar rujukan dan jumlah rujukan minimal 15 (Skor 2.0)",
+              "sourceCell": "C106"
+            },
+            {
+              "score": 1.0,
+              "label": "Kurang dari 40 % dari jumlah daftar rujukan dan jumlah rujukan minimal 15 (Skor 1.0)",
+              "sourceCell": "C107"
+            },
+            {
+              "score": 0.5,
+              "label": "Jumlah rujukan kurang dari 15 (Skor 0.5)",
+              "sourceCell": "C108"
+            }
+          ],
+          "max": 3.0
+        },
+        {
+          "id": "6h",
+          "letter": "h",
+          "title": "Derajat Kemutakhiran Pustaka Acuan",
+          "sourceRow": 109,
+          "options": [
+            {
+              "score": 3.0,
+              "label": "Lebih dari 80 % dari jumlah daftar rujukan mutakhir (Skor 3.0)",
+              "sourceCell": "C110"
+            },
+            {
+              "score": 2.0,
+              "label": "40-80 % dari jumlah daftar rujukan mutakhir (Skor 2.0)",
+              "sourceCell": "C111"
+            },
+            {
+              "score": 1.0,
+              "label": "Kurang dari 40 % dari jumlah daftar rujukan mutakhir (Skor 1.0)",
+              "sourceCell": "C112"
+            }
+          ],
+          "max": 3.0
+        },
+        {
+          "id": "6i",
+          "letter": "i",
+          "title": "Cakupan Keilmuan",
+          "sourceRow": 113,
+          "options": [
+            {
+              "score": 2.0,
+              "label": "Proporsi artikel yang sesuai dengan fokus dan skop jurnal mencakup seluruh artikel (100%) (Skor 2.0)",
+              "sourceCell": "C114"
+            },
+            {
+              "score": 1.5,
+              "label": "Proporsi artikel yang sesuai dengan fokus dan skop jurnal mencakup sekurang-kurangnya 90% dan kurang dari 100% (Skor 1.5)",
+              "sourceCell": "C115"
+            },
+            {
+              "score": 1.0,
+              "label": "Proporsi artikel yang sesuai dengan fokus dan skop jurnal mencakup sekurang-kurangnya 80% dan kurang dari 90% (Skor 1.0)",
+              "sourceCell": "C116"
+            },
+            {
+              "score": 0.5,
+              "label": "Proporsi artikel yang sesuai dengan fokus dan skop jurnal mencakup kurang dari 80% (Skor 0.5)",
+              "sourceCell": "C117"
+            }
+          ],
+          "max": 2.0
+        }
+      ],
+      "max": 34.0
+    },
+    {
+      "id": 7,
+      "title": "Gaya Penulisan dan Penyuntingan Artikel",
+      "sourceRow": 118,
+      "criteria": [
+        {
+          "id": "7a",
+          "letter": "a",
+          "title": "Kelengkapan Galley/PDF Artikel yang Diterbitkan",
+          "sourceRow": 119,
+          "options": [
+            {
+              "score": 3.0,
+              "label": "Sangat lengkap; memenuhi seluruh unsur kelengkapan galley (Skor 3.0)",
+              "sourceCell": "C120"
+            },
+            {
+              "score": 2.0,
+              "label": "Cukup lengkap; memenuhi 7 (tujuh) atau 8 (delapan) dari 9 (sembilan) unsur kelengkapan galley (Skor 2.0)",
+              "sourceCell": "C121"
+            },
+            {
+              "score": 1.0,
+              "label": "Kurang lengkap; memenuhi 5 (lima) atau 6 (enam) dari 9 (sembilan) unsur kelengkapan galley (Skor 1.0)",
+              "sourceCell": "C122"
+            },
+            {
+              "score": 0.5,
+              "label": "Tidak lengkap; tidak tersedia atau  memenuhi 1 (satu) sampai dengan 4 (empat) dari 9 (sembilan) unsur kelengkapan galley (Skor 0.5)",
+              "sourceCell": "C123"
+            }
+          ],
+          "max": 3.0
+        },
+        {
+          "id": "7b",
+          "letter": "b",
+          "title": "Pencantuman Nama Penulis dan Afiliasi Penulis",
+          "sourceRow": 124,
+          "options": [
+            {
+              "score": 1.0,
+              "label": "Lengkap, benar, dan konsisten antar artikel (Skor 1.0)",
+              "sourceCell": "C125"
+            },
+            {
+              "score": 0.5,
+              "label": "Lengkap dan benar, tetapi tidak konsisten antar artikel (Skor 0.5)",
+              "sourceCell": "C126"
+            },
+            {
+              "score": 0.0,
+              "label": "Tidak lengkap dan tidak konsisten (Skor 0.0)",
+              "sourceCell": "C127"
+            }
+          ],
+          "max": 1.0
+        },
+        {
+          "id": "7c",
+          "letter": "c",
+          "title": "Sistematika Penulisan Artikel",
+          "sourceRow": 128,
+          "options": [
+            {
+              "score": 2.0,
+              "label": "Lengkap, bersistem baik, dan konsisten antar artikel dan antar terbitan (Skor 2.0)",
+              "sourceCell": "C129"
+            },
+            {
+              "score": 1.0,
+              "label": "Lengkap, bersistem baik, tetapi tidak konsisten antar artikel antar terbitan (Skor 1.0)",
+              "sourceCell": "C130"
+            },
+            {
+              "score": 0.5,
+              "label": "Kurang lengkap, kurang bersistem baik, tetapi konsisten antar artikel antar terbitan (Skor 0.5)",
+              "sourceCell": "C131"
+            },
+            {
+              "score": 0.0,
+              "label": "Kurang lengkap, kurang bersistem baik dan tidak konsisten antar artikel antar terbitan (Skor 0.0)",
+              "sourceCell": "C132"
+            }
+          ],
+          "max": 2.0
+        },
+        {
+          "id": "7d",
+          "letter": "d",
+          "title": "Pemanfaatan Instrumen Pendukung",
+          "sourceRow": 133,
+          "options": [
+            {
+              "score": 4.0,
+              "label": "Pemanfaatan instrumen pendukung efektif dan komplementer (Skor 4.0)",
+              "sourceCell": "C134"
+            },
+            {
+              "score": 2.0,
+              "label": "Pemanfaatan instrumen pendukung cukup efektif dan cukup komplementer (Skor 2.0)",
+              "sourceCell": "C135"
+            },
+            {
+              "score": 0.0,
+              "label": "Pemanfaatan instrumen pendukung tidak efektif dan tidak komplementer (Skor 0.0)",
+              "sourceCell": "C136"
+            }
+          ],
+          "max": 4.0
+        },
+        {
+          "id": "7e",
+          "letter": "e",
+          "title": "Sistem Pengacuan Pustaka di dalam Artikel dan Konsistensi Penulisan Daftar Pustaka",
+          "sourceRow": 137,
+          "options": [
+            {
+              "score": 3.0,
+              "label": "Sistem pengacuan pustaka di dalam artikel baku (sesuai Petunjuk Penulisan untuk Penulis) dan konsisten penulisannya antar artikel (tingkat kesesuaian 100%) (Skor 3.0)",
+              "sourceCell": "C138"
+            },
+            {
+              "score": 2.0,
+              "label": "Sistem pengacuan pustaka di dalam artikel cukup baku (cukup sesuai Petunjuk Penulisan untuk Penulis) dan cukup konsisten penulisannya antar artikel (tingkat kesesuaian antara 75% sampai dengan kurang dari 100%) (Skor 2.0)",
+              "sourceCell": "C139"
+            },
+            {
+              "score": 0.0,
+              "label": "Sistem pengacuan pustaka di dalam artikel tidak baku dan penulisannya tidak konsisten antar artikel (tingkat kesesuaian kurang dari 75%) (Skor 0.0)",
+              "sourceCell": "C140"
+            }
+          ],
+          "max": 3.0
+        },
+        {
+          "id": "7f",
+          "letter": "f",
+          "title": "Penggunaan Istilah dan Kualitas Kebahasaan",
+          "sourceRow": 141,
+          "options": [
+            {
+              "score": 4.0,
+              "label": "Semua (100%) artikel pada jurnal ilmiah menggunakan istilah baku, dan kualitas kebahasaan baik dan benar (Skor 4.0)",
+              "sourceCell": "C142"
+            },
+            {
+              "score": 3.0,
+              "label": "Sebagian besar (75% sampai kurang dari 100%) artikel pada jurnal ilmiah menggunakan istilah baku, dan kualitas kebahasaan baik dan benar (Skor 3.0)",
+              "sourceCell": "C143"
+            },
+            {
+              "score": 1.0,
+              "label": "Sebagian (50% sampai kurang dari 75%) artikel pada jurnal ilmiah menggunakan istilah baku, namun kebahasaan belum memenuhi kualitas kebahasaan yang baik dan benar; atau sebaliknya (Skor 1.0)",
+              "sourceCell": "C144"
+            },
+            {
+              "score": 0.0,
+              "label": "Sebagian besar artikel berbahasa yang kurang baik dan kurang benar (Skor 0.0)",
+              "sourceCell": "C145"
+            }
+          ],
+          "max": 4.0
+        },
+        {
+          "id": "7g",
+          "letter": "g",
+          "title": "Mutu Penyuntingan Substansi, Gaya Selingkung, dan Format Tata Letak",
+          "sourceRow": 146,
+          "options": [
+            {
+              "score": 3.0,
+              "label": "Mutu penyuntingan substansi, gaya selingkung, dan format tata letak (layout) artikel sesuai standar artikel ilmiah dan konsisten antar artikel (Skor 3.0)",
+              "sourceCell": "C147"
+            },
+            {
+              "score": 2.0,
+              "label": "Mutu penyuntingan substansi, gaya selingkung, dan format tata letak (layout) artikel sesuai standar artikel ilmiah, namun tidak konsisten antar artikel (Skor 2.0)",
+              "sourceCell": "C148"
+            },
+            {
+              "score": 1.0,
+              "label": "Mutu penyuntingan substansi, gaya selingkung dan format tata letak (layout) artikel kurang sesuai standar artikel ilmiah, dan/atau tidak konsisten antar artikel (Skor 1.0)",
+              "sourceCell": "C149"
+            }
+          ],
+          "max": 3.0
+        }
+      ],
+      "max": 20.0
+    },
+    {
+      "id": 8,
+      "title": "Disinsentif",
+      "sourceRow": 150,
+      "criteria": [
+        {
+          "id": "8a",
+          "letter": "a",
+          "title": "Pelanggaran Integritas Akademik",
+          "sourceRow": 151,
+          "options": [
+            {
+              "score": -20.0,
+              "label": "Terbukti ditemukan memuat lebih dari 3 artikel pada nomor terbitan yang diajukan akreditasi merupakan penyimpangan atau pelanggaran integritas akademik dan tidak ada tindakan koreksi atau penarikan artikel oleh penerbit (Skor -20.0)",
+              "sourceCell": "C152"
+            },
+            {
+              "score": -15.0,
+              "label": "Terbukti ditemukan memuat 2 sampai dengan 3 artikel pada nomor terbitan yang diajukan akreditasi merupakan pelanggaran integritas akademik dan tidak ada tindakan koreksi atau penarikan kembali oleh penerbit (Skor -15.0)",
+              "sourceCell": "C153"
+            },
+            {
+              "score": -10.0,
+              "label": "Terbukti ditemukan memuat 1 artikel pada nomor terbitan yang diajukan akreditasi merupakan pelanggaran integritas akademik dan tidak ada tindakan koreksi atau penarikan kembali oleh penerbit (Skor -10.0)",
+              "sourceCell": "C154"
+            },
+            {
+              "score": 0,
+              "label": "Tidak ada disinsentif yang teridentifikasi setelah verifikasi bukti (0).",
+              "appAdded": true
+            }
+          ],
+          "max": 0
+        },
+        {
+          "id": "8b",
+          "letter": "b",
+          "title": "Ketersediaan informasi dokumen Persetujuan Etik (Ethical Clearance)",
+          "sourceRow": 155,
+          "options": [
+            {
+              "score": -3.0,
+              "label": "Artikel tidak mencantumkan nomor dan tahun diterbitkannya dokumen Ethical Clearance dari komite etik yang relevan atau pernyataan dari penulis tentang kepatuhan pada kelayakan etik, yang disetujui oleh Mitra Bestari dan/atau Tim Editor pada riset yang melibatkan manusia dan hewan (Skor -3.0)",
+              "sourceCell": "C156"
+            },
+            {
+              "score": 0,
+              "label": "Tidak ada disinsentif yang teridentifikasi setelah verifikasi bukti (0).",
+              "appAdded": true
+            }
+          ],
+          "max": 0
+        }
+      ],
+      "max": 0
+    }
+  ]
+}
